@@ -83,7 +83,7 @@ export default function Header({
             </div>
           </div>
           <div className="flex flex-col leading-none">
-            <span className="text-[15px] font-semibold gradient-text">CodeReview.ai</span>
+            <span className="text-[15px] font-semibold gradient-text">CodeReview</span>
             <span className="text-[10px] text-slate-500 tracking-wider uppercase">
               on GenLayer
             </span>
