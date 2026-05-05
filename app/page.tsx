@@ -138,7 +138,7 @@ export default function Page() {
 
           <p className="text-slate-400 max-w-xl mx-auto text-[15px] leading-relaxed">
             Paste your code. Multiple LLM validators independently analyze and reach
-            consensus on-chain — producing a structured, verifiable review in seconds.
+            consensus on-chain producing a structured, verifiable review in seconds.
           </p>
         </motion.section>
 
