@@ -26,10 +26,12 @@ Traditional smart contracts can't run AI. GenLayer's **Intelligent Contracts** c
 .
 ├── contracts/
 │   └── code_reviewer.py    # The Intelligent Contract (deployed)
-├── web/                    # Next.js 14 dApp
-│   ├── app/                # Routes, providers, global styles
-│   ├── components/         # UI components (Header, ReviewForm, …)
-│   └── lib/                # genlayer.ts, wagmi, networks, utils
+├── app/                    # Next.js routes, providers, globals
+├── components/             # UI components (Header, ReviewForm, …)
+├── lib/                    # genlayer.ts, wagmi, networks, utils
+├── next.config.js
+├── tailwind.config.ts
+├── package.json
 └── README.md
 ```
 
@@ -53,7 +55,6 @@ Traditional smart contracts can't run AI. GenLayer's **Intelligent Contracts** c
 ## Getting Started
 
 ```bash
-cd web
 npm install
 npm run dev
 ```

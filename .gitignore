@@ -2,5 +2,9 @@
 node_modules/
 .next/
 out/
+build/
 .env*.local
+.env.local
+.vercel
 *.log
+*.tsbuildinfo
